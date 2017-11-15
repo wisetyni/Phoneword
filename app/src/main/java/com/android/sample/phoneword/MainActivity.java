@@ -10,7 +10,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
+        PhoneTranslator.toNumber("1-855-XAMARIN");
 
 
     }
