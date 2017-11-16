@@ -39,8 +39,26 @@ public class PhoneTranslator {
     }
 
     private static String translateToNumber(String c) {
-         return null;
-        
+
+            if ("ABC".contains(c))
+                return "2";
+            else if ("DEF".contains(c))
+                return "3";
+            else if ("GHI".contains(c))
+                return "4";
+            else if ("JKL".contains(c))
+                return "5";
+            else if ("MNO".contains(c))
+                return "6";
+            else if ("PQRS".contains(c))
+                return "7";
+            else if ("TUV".contains(c))
+                return "8";
+            else if ("WXYZ".contains(c))
+                return "9";
+
+            return null;
+
     }
 
 }
